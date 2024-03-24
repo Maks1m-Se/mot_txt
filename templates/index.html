@@ -9,18 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-wHTDs8ZapF3ldk9f6aRd7sCyZZF8+US+stJLXtWLz1EGPvbA8QyBkwokjHtoNgy0AD9n2X7bQITBkMKVdgk1Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <title>Eli's Adventstürchen-Öffner</title>
+    <title>Quotes of the day</title>
 
     <style>
         body {
             background-color: #f5f8fa;
-    background: linear-gradient(45deg, #36d1dc, #5b86e5);
-    font-family: 'Nunito Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+        background: linear-gradient(10deg, #36d1dc, #2950a4);
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        }
+
+        .container {
+        background-color: rgba(222, 221, 221, 0.238); /* Semi-transparent gray background */
+        padding: 20px;
+        border-radius: 10px;
         }
 
         h1 {
@@ -32,7 +38,7 @@
             margin-bottom: 30px;
             margin-left: 100px;
             margin-right: 100px;
-            font-size: 60pt;
+            font-size: 40pt;
             letter-spacing: 3px;
         }
 
@@ -40,9 +46,9 @@
             font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
             line-height: 25px;
             font-style: italc;
-            color: #767788f7;
+            color: #44454ef7;
             text-align: center;
-            font-size: 20;
+            font-size: 7;
             margin-bottom: 20px;
         }
 
@@ -172,17 +178,12 @@
     
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2>
-        Quote:
-    </h2>
-    <br>
-    <br>
+    <div class="container">
+    <h2>Quote of the day</h2>
+    </br>
     <h1>
-        {{ quote|safe }}
+        {{ quote1|safe }}
     </h1>
+    </div>
 </body>
 </html>

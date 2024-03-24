@@ -15,7 +15,7 @@ def get_random_file():
 
 @app.route('/')
 def index():
-    return render_template('index.html', quote=get_random_file())
+    return render_template('index.html', quote1=get_random_file(), quote2=get_random_file())
 
 
 if __name__ == '__main__':
