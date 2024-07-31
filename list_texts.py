@@ -31,5 +31,8 @@ LIST_TEXTS = [
     "Strict with yourself,<br>tolerant with others.",
     "Be comfortable<br>being uncomfortable.",
     "Eat that frog.",
-    "80/20"
+    "80/20",
+    "Do it what if you say it.<br>Only say what you are willing to do.",
+    "Don't complain.<br>Create solutions.",
+    "You can't control everythin.<br>But you can control how you react."
 ]
